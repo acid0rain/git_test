@@ -1,3 +1,10 @@
 
-print("Hello world")
+###
+def hello():
+    guest = input("What is your name? ")
+    print (f"Nice to meet you {guest}, my name is Acid0Rain")
+
+hello()
+
+
 

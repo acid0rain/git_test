@@ -6,5 +6,12 @@ def hello():
 
 hello()
 
+#check how they are
+def askMood ():
+    mood = input.lower("How are you today?")
+    if "good" in mood:
+        print("Great to hear!")
+    else:
+        print("Sorry to hear that")
 
-
+mood()
